@@ -1,0 +1,54 @@
+* {
+	margin: 13px;
+	padding: 0;
+}
+
+main {
+	width: 1250px;
+	margin-top:0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main section {
+	width: 23.1%;
+	height: 15vh;
+	margin-right: 10px;
+	float: left;
+	background-color: navajowhite;
+}
+
+main section.first {
+	width: 98%;
+	background-color: cornflowerblue;
+}
+
+main section.third {
+	width: 32%;
+	background-color: navajowhite;
+}
+
+
+main section.thirdhalf {
+	width: 14.2%;
+	height: 8vh;
+	margin-bottom: 5vh;
+	background-color: navajowhite;
+}
+
+main section.fourth {
+	width: 48.08%;
+	background-color: cornflowerblue;
+}
+
+main section.fifth {
+	width: 30.25%;
+	background-color: lightcoral;
+}
+
+main section.fifthhalf {
+	width: 65.9%;
+	height: 8vh;
+	margin-top: 8.7vh;
+	background-color: lightcoral;
+}
