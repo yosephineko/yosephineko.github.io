@@ -22,19 +22,18 @@
 }
 
 /* table */
-table {
+.tables table {
 	width: 374px;
 	position: relative;
 	border-collapse: collapse;
 	margin-left: 226px;
 	margin-top: 3px;
 }
-thead {
+.tables thead {
 	color: white;
 	background-color: grey;
 }
-thead tr th {
-	color: white;
+.tables thead tr th:nth-child(1) {
 	text-align: left;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -45,9 +44,48 @@ thead tr th {
 	border: 1px solid darkgrey;
 	font-weight: normal;
 }
-tbody tr td {
+.tables thead tr th:nth-child(2) {
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12pt;
+	font-family: sans-serif;
+	border: 1px solid darkgrey;
+	font-weight: normal;
+}
+.tables thead tr th:nth-child(3) {
+	color: white;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12pt;
+	font-family: sans-serif;
+	border: 1px solid darkgrey;
+	font-weight: normal;
+}
+.tables tbody tr td:nth-child(1) {
 	padding-top: 5px;
 	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid darkgrey;
+	font-family: sans-serif;
+}
+.tables tbody tr td:nth-child(2) {
+	padding-top: 2px;
+	padding-bottom: 34px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid darkgrey;
+	font-family: sans-serif;
+}
+.tables tbody tr td:nth-child(3) {
+	padding-top: 2px;
+	padding-bottom: 34px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border: 1px solid darkgrey;
