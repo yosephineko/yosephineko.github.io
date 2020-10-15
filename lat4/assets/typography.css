@@ -1,0 +1,53 @@
+.main-text {
+ 	text-align: justify;
+}
+
+.sidenotes {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.deck {
+	font-family: 'Libre Baskerville',serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.italic {
+	font-family: 'Libre Baskerville' ,serif;
+	font-size: 16px;
+	font-style: italic;
+}
+
+table {
+	font-family: 'Libre Baskerville' ,serif;
+	font-size: 13px;
+}
+td{
+	text-align: center;
+}
+th {
+	text-align: center;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+p{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+}
+
