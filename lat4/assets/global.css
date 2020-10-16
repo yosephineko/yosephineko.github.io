@@ -59,5 +59,11 @@ td{
 }
 
 
-/*@media(max-width:340px){ 
-}*/
+@media (max-width:340px){ 
+    .button{
+        background-color: red;
+    }
+    table {
+        width: 100%;
+    }
+}
